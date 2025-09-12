@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
-body{ background-color: beige;}
+body{ font-family: Arial, Helvetica, sans-serif; 
+           background-color: beige;}
+
 html, body { margin: 0; padding: 0;}
 header{ text-align: center; background-color: antiquewhite ; padding: 24px;}
 header img{ width: 320px; height: 320px;border: 21px solid rgb(97, 91, 10); border-radius: 80%;}
-header h1{
+
+p, ul, ol{ font-size: 18px; line-height: 1.6; color: rgb(97, 91, 10);}
+p.caption{ font-style: italic; font-size: 12px; color: gray;}
+ol, ul{padding: 0; list-style-position: inside;}
+
+h1{
   font-family: "Eagle Lake", serif;
   font-weight: 400;
   font-style: normal;
@@ -12,4 +19,22 @@ header h1{
   color: rgb(97, 91, 10);
 }
 
+a{ color: rgb(97, 91, 10); text-decoration: none;}
+
+a:hover{ background-color: rgb(255, 255, 255); border-radius: 16%; padding: 8px;} 
+a:visited{ color: rgb(150, 140, 20);}
+
+h2{
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin: 40px 0 0 0;
+  color: rgb(97, 91, 10);
+}
+
+main{ width: 800px;
+  margin: 0 auto;}
+
+main image{ width: 100%; height: auto; border-radius: 8px; margin: 16px 0;}
 
