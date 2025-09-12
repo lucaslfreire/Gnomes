@@ -38,3 +38,7 @@ main{ width: 800px;
 
 main image{ width: 100%; height: auto; border-radius: 8px; margin: 16px 0;}
 
+footer{ text-align: center; background-color: antiquewhite ; padding: 16px; margin-top: 40px;}
+
+footer a:hover{ color: rgb(1, 63, 16); text-decoration: none; font-weight: bold;background-color: transparent; padding: 0%;}
+
