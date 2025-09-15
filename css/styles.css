@@ -36,7 +36,7 @@ h2{
 main{ width: 800px;
   margin: 0 auto;}
 
-main image{ max-width: 500px; height: auto; border-radius: 8px; margin: 16px 0;}
+main img{ max-width: 500px; height: auto; border-radius: 8px; margin: 16px 0;}
 
 footer{ text-align: center; background-color: antiquewhite ; padding: 16px; margin-top: 40px;}
 
