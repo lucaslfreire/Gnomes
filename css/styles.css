@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
-body{ font-family: Arial, Helvetica, sans-serif; 
-           background-color: beige;}
+body
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;          /* coloca os itens em linha */
+  gap: 20px;              /* espaço entre eles */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
 
 html, body { margin: 0; padding: 0;}
 header{ text-align: center; background-color: antiquewhite ; padding: 24px;}
